@@ -22,6 +22,6 @@ public class RegistryHelper {
 	}
 
 	public void registerEventListener(Object eventListenerClass) {
-		game.getEventManager().registerListeners(this, eventListenerClass);
+		game.getEventManager().registerListeners(plugin, eventListenerClass);
 	}
 }
